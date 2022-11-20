@@ -1,0 +1,48 @@
+body{
+   font-family: 'Dosis', sans-serif;
+   margin: 0 140px 0 140PX;
+}
+
+img{
+  max-width: 100%;
+}
+.idioma{
+  display: flex;
+ justify-content: end;
+ height: 75px;
+}
+.idioma div{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.idioma a{
+  text-decoration: none;
+}
+.idioma h2,a{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: underline;
+}
+
+/* ========================================== */
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.img2{
+  grid-column:2;
+  place-self: start;
+}
+.grid-text{
+  grid-column: 1/1;
+}
+.grid-list{
+  grid-column: 1/1;
+}
