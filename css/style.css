@@ -242,18 +242,18 @@ footer{
 }
 .footer-lista{
   display: flex;
+  justify-content: start;
 }
 .footer{
   display: grid;
-place-items: center;
-justify-content: start;
+  place-items: center;
+
 }
 .apoio{
-  margin: 61px 0 61px 137px;
   display: flex;
   gap: 28px;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
 }
 .apoio img{
   max-width: 100%;
@@ -267,10 +267,11 @@ justify-content: start;
 }
 
 .realizacao{
-  margin: 61px 0 61px 137px;
+  margin-right: 200px;
   display: flex;
   gap: 28px;
   align-items: center;
+  justify-content: center;
 }
 .realizacao p{
   font-family: 'Dosis',sans-serif;
