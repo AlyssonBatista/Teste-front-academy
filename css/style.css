@@ -37,35 +37,30 @@ article{
 
 /* ============================================== estilos section ou estilos main */
 
-/* #container{
-  max-width: 100%;
-  height: 200px;
-  background: blue;
-  position: relative;
-} */
+
+
+/* .grid-main{
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to bottom,#ededed 0, #EDEDED 57.6%, #5287DD 55%);
+}
 div.grid2{
   background: #EDEDED;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   height: 645px;
   
 }
 div.grid3{
   background: #5287DD;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+
   height: 475px;
 }
 div.imagem-over{
-  max-width: 100%;
-  display: block;
-  bottom: -90px;
-  left: 758px;
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
+  grid-column: 2;
+  grid-row: 1;
 }
+
 
 
 
@@ -112,7 +107,6 @@ div.imagem-over{
 
 .grid3{
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .grid3-vertere h1{
@@ -140,9 +134,27 @@ div.imagem-over{
 
 .imagem-over {
   max-width: 100%;
+} */
+/* teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_teste_ */
+.grid-23{
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to bottom,#ededed 0, #EDEDED 57.0%, #5287DD 55%);
 }
+.imagem2-fixed{
+  position: relative;
+  top: -1200px;
+}
+ .grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.imagem2{
+  position: absolute;
+  left: 740px;
+  top: 130px;
 
-/* 
+}
 .texto-img1{
   grid-template-columns: 1;
 }
@@ -151,16 +163,7 @@ div.imagem-over{
   max-width: 100%;
 
 }
-.imagem2 {
-  grid-column: 2;
-  grid-row: 1;
-  position: relative;
-z-index: 100;
-  margin: 50px 0 0 0;
-  max-width: 100%;
-  display: block;
-  background-size:cover;
-}
+ 
 .texto-img1 p{
   max-width: 570px;
   font-family: 'Dosis',sans-serif;
@@ -198,18 +201,19 @@ z-index: 100;
 
 .texto-img1 strong{
   font-weight: 700;
-} */
+} 
 
 
 
 /* ============================================ estilos article */
-/* .grid3{
+ .grid3{
  display: grid;
  grid-template-columns: 1fr 1fr;
 }
 .grid3-iniciativa{
+  width: max-content;
   grid-column: 1;
-  margin-top: 95px;
+  /* margin-top: 95px; */
   margin-left: 137px;
   height: 475px;
 }
@@ -222,6 +226,7 @@ z-index: 100;
   color: #FFFFFF;
   margin-bottom: 32px;
   margin-right: 30px;
+  padding-top: 95px;
   word-wrap: break-word;
 }
 
@@ -234,7 +239,7 @@ z-index: 100;
   color: #FFFFFF;
   word-wrap: break-word;
   margin-right: 100px; 
-} */
+} 
 
 /* =========================================================== section 2 */
 
