@@ -239,8 +239,12 @@ z-index: 100;
 /* =========================================================== section 2 */
 
 .grid4{
+  display: grid;
+  place-items: center;
+}
+.flex1{
   display: flex;
-  height: 548px;
+  gap: 40px;
 }
 .grid4-intercambio h1{
   max-width: 570px;
