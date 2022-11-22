@@ -151,7 +151,7 @@ div.imagem-over{
 }
 .imagem2{
   position: absolute;
-  left: 740px;
+  left: 730px;
   top: 130px;
 
 }
@@ -246,10 +246,14 @@ div.imagem-over{
 .grid4{
   display: grid;
   place-items: center;
+  
 }
 .flex1{
   display: flex;
-  gap: 40px;
+ margin: 0px;
+}
+.grid4-intercambio{
+  margin-left: 60px;
 }
 .grid4-intercambio h1{
   max-width: 570px;
@@ -258,9 +262,9 @@ div.imagem-over{
   font-size: 68px;
   line-height: 62px;
   color: #2B2B2B;
-  margin-bottom: 32px;
-  margin-top: 81px;
-  margin-left: 137px;
+  padding-bottom: 32px;
+  padding-top: 81px;
+  
 }
 .grid4-intercambio p{
   max-width: 528px;
@@ -269,20 +273,19 @@ div.imagem-over{
   font-size: 18px;
   line-height: 23px;
   color: #2B2B2B;
-  margin-left: 137px;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
+ 
 .grid4-intercambio h2{
   max-width: 486px;
   font-family: 'Work Sans', sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 62px;
-  padding: 0 32px 0 32px;
   background-color: #5287DD;
   color: #EDEDED;
   border: 3px solid;
-  margin: 0 0 18px 137px;
+  margin: 0 0 18px 0;
   text-align: center;
   border-radius: 8px;
 }
@@ -293,12 +296,12 @@ div.imagem-over{
   font-size: 18px;
   line-height: 22px;
   color: #2B2B2B;
-  margin: 0 0 132px 137px;
+  margin: 0 0 132px 0;
  
 }
 .grid4-imagem {
   max-width: 500px;
-  margin: 61px 206px 97px 72px;
+  margin: 61px 206px 97px 40px;
 }
 
 
@@ -350,7 +353,7 @@ footer{
 }
 .footer-lista{
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
 }
 .footer{
   display: grid;
@@ -361,10 +364,11 @@ footer{
   display: flex;
   gap: 28px;
   align-items: center;
-  justify-content: center;
+  
 }
 .apoio img{
   max-width: 100%;
+
 }
 
 .apoio p{
@@ -375,11 +379,10 @@ footer{
 }
 
 .realizacao{
-  margin-right: 200px;
   display: flex;
   gap: 28px;
+  padding-right: 120px;
   align-items: center;
-  justify-content: center;
 }
 .realizacao p{
   font-family: 'Dosis',sans-serif;
