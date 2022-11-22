@@ -39,7 +39,7 @@ article{
 .grid2{
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  gap: 20px;
+  
 }
 
 .texto-img1{
@@ -47,6 +47,7 @@ article{
 }
 .imagem1{
   margin-left: 137px;
+  margin-right: 30px;
   max-width: 100%;
   display: block;
 }
@@ -54,9 +55,11 @@ article{
   grid-column: 2;
   grid-row: 1;
   position: absolute;
-  margin-top: 50px;
+  margin: 50px 142px 0 0;
+
   max-width: 100%;
-  background-size:cover
+  display: block;
+  background-size:cover;
 }
 .texto-img1 p{
   font-family: 'Dosis',sans-serif;
@@ -66,6 +69,7 @@ article{
   margin-left: 137px;
   color:  #2B2B2B;
   margin-top: 25px;
+  margin-right: 55px;
   height: 74px;
   left: 137px;
   top: 419px;
@@ -131,70 +135,61 @@ article{
 
 /* =========================================================== section 2 */
 
-.flex1{
-  display: grid;
-  grid-template-columns: auto auto;
+.grid4{
+  display: flex;
+  
   height: 548px;
-  gap: 20px;
+  
 }
-
-.flex1 h1{
+.grid4-intercambio h1{
   font-family: 'Work Sans', sans-serif;
   font-weight: 900;
   font-size: 68px;
   line-height: 62px;
-  margin-top: 81px;
+  color: #2B2B2B;
   margin-bottom: 32px;
-  color:#2B2B2B;
+  margin-top: 81px;
   margin-left: 137px;
-
 }
-
-.flex1 p{
+.grid4-intercambio p{
+   
   font-family: 'Dosis',sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
+  color: #2B2B2B;
   margin-left: 137px;
   margin-bottom: 32px;
-  height: 46px;
-  width: 528px;
-  left: 137px;
-  top: 1428px;
-  border-radius: nullpx;
+  margin-right: 72px;
 }
-.flex1 h2 {
+.grid4-intercambio h2{
   font-family: 'Work Sans', sans-serif;
-  font-weight: 700;
   font-size: 22px;
+  font-weight: 700;
   line-height: 62px;
-  color: #EDEDED;
-  margin-left: 137px;
+  padding: 0 32px 0 32px;
   background-color: #5287DD;
-  height: 62px;
-  width: 486px;
-  left: 137px;
-  top: 1506px;
-  border-radius: 8px;
-  padding: 0px 32px 0px 32px;
-  margin-bottom: 18px;
+  color: #EDEDED;
+  border: 3px solid;
+  margin: 0 146px 18px 137px;
   text-align: center;
+  border-radius: 8px;
 }
-
-.flex1 a{
+.grid4-intercambio a {
   font-family: 'Work Sans', sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 22px;
   color: #2B2B2B;
-  margin-left: 137px;
+  margin: 0 403px 132px 137px;
+
+}
+.grid4-imagem {
+  margin: 61px 206px 97px 0;
 }
 
-.img-flex1{
-  margin-right: 142px;
-  margin-top: 61px;
-  max-width: 100%;
-}
+
+
 
 /* =================================================================section final */
 .inscricao{
@@ -297,11 +292,11 @@ footer{
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
-/* a.active{
+a.active{
   background: #5287DD;
   width: 37px;
   height: 37px;
   border: 3px solid #2B2B2B;
   border-radius: 50%;
 
-} */
+}
