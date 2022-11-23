@@ -504,7 +504,7 @@ a.active{
 
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-@media(max-width: 600px) {
+@media(max-width: 360px) {
   body{
     height: 360px;
   }
@@ -570,6 +570,7 @@ a.active{
    
   }
   .grid4{
+    max-width: 360px;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -577,12 +578,16 @@ a.active{
     margin: 81px 0 81px 0;
   }
   .flex1{
+    max-width: 500px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     justify-items: center;
     margin: 0;
     text-align: center;
+  }
+  .grid4-intercambio h1{
+    /* max-width: 500px; */
   }
   .grid4-intercambio h2{
     font-size: 28px;
