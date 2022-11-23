@@ -12,7 +12,7 @@ img{
 }
 article{
   background: #5287DD;
-  width: 100%;
+ 
 
 }
 /* ============================================== estilos header */
@@ -66,9 +66,10 @@ article{
 }
 .imagem2{
   position: absolute;
-  left: 730px;
+  left: 818px;
   top: 130px;
-
+   
+  
 }
 .texto-img1{
   grid-template-columns: 1;
@@ -90,10 +91,6 @@ article{
   margin-top: 25px;
   margin-right: 55px;
   height: 74px;
-  left: 137px;
-  top: 419px;
-  border-radius: nullpx;
-
 }
 .texto-img1 h3{
   font-family: 'Dosis',sans-serif;
@@ -160,18 +157,18 @@ article{
 
 .grid4{
   display: grid;
-  place-items: center;
-  justify-content: center;
-  
-  
+  grid-template-columns: 1fr 1fr;
+
 }
 .flex1{
   display: flex;
  margin: 0px;
- justify-content: center;
+ justify-content: end;
+ margin-right: 60px;
 }
 .grid4-intercambio{
-  margin-left: 137px;
+  width: max-content;
+  justify-content: center;
 }
 .grid4-intercambio h1{
   max-width: 570px;
@@ -219,7 +216,7 @@ article{
 }
 .grid4-imagem {
   max-width: 500px;
-  margin: 61px 206px 97px 40px;
+  padding: 61px 206px 97px 50px;
 }
 
 
@@ -271,26 +268,18 @@ footer{
   height: 164px;
 }
 .footer-lista{
-  /* width: 1524px; */
   display: flex;
   justify-content: center;
 }
 .footer{
   display: grid;
   place-items: center;
-
 }
 .apoio{
   display: flex;
   gap: 28px;
   align-items: center;
-  
 }
-.apoio img{
-  max-width: 100%;
-
-}
-
 .apoio p{
   font-family: 'Dosis',sans-serif;
   font-weight: 400;
