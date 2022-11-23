@@ -1,6 +1,7 @@
 /* ============================================== estilos gerais */
 body{
   background: #EDEDED;
+  overflow-x: hidden;
 }
 h3,ul,p{
   margin: 0px;
@@ -33,6 +34,7 @@ article{
   line-height: 21px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 900;
+  text-decoration: underline;
 }
 
 .idioma a{
@@ -51,6 +53,7 @@ article{
 .grid-23{
   display: grid;
   place-items: center;
+  justify-content: center;
   background-image: linear-gradient(to bottom,#ededed 0, #EDEDED 57.0%, #5287DD 55%);
 }
 .imagem2-fixed{
@@ -158,13 +161,14 @@ article{
 .grid4{
   display: grid;
   place-items: center;
+  justify-content: center;
   
   
 }
 .flex1{
   display: flex;
  margin: 0px;
- width: 1524px;
+ justify-content: center;
 }
 .grid4-intercambio{
   margin-left: 137px;
@@ -228,6 +232,7 @@ article{
   display: grid;
   place-items: center;
   text-align: center;
+  justify-content: center;
 }
 .inscricao h1{
   font-style: normal;
@@ -238,7 +243,7 @@ article{
   margin-top: 80px;
   margin-bottom: 32px;
   color: #FFFFFF;
-  width: 770px;
+  width: 500px;
   height: 124px;
   word-wrap: break-word;
   
@@ -266,7 +271,7 @@ footer{
   height: 164px;
 }
 .footer-lista{
-  width: 1524px;
+  /* width: 1524px; */
   display: flex;
   justify-content: center;
 }
@@ -337,6 +342,6 @@ a.active{
   
 }
 
-strong.li1{
+strong.active{
   font-weight: 700;
 }

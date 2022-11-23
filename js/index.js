@@ -1,5 +1,5 @@
-const langEl = document.querySelector('.idioma');
-const link = document.querySelectorAll('a');
+const langEl = document.querySelector('.idioma','.lista');
+const link = document.querySelectorAll('a','strong');
 
 
 const titleEl = document.querySelector('.titulo');
