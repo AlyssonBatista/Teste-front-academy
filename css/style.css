@@ -2,6 +2,8 @@
 body{
   background: #EDEDED;
   overflow-x: hidden;
+  display: grid;
+  grid-template-columns: auto;
 }
 h3,ul,p{
   margin: 0px;
@@ -493,92 +495,87 @@ a.active{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-@media(max-width: 360px) {
-  body{
-    height: 360px;
-  }
-  .idioma{
-    height: 83.4px;
-  }
+@media(max-width: 380px) {
+
   .grid-23{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     margin: 0;
-  background-image: linear-gradient(to bottom,#ededed 0, #EDEDED 73.2%, #5287DD 55%);
-
-    
+    max-width: 375px;
+    background-image: linear-gradient(to bottom,#ededed 0, #EDEDED 73.2%, #5287DD 55%);
+  
   }
   .texto-img1{
     display: grid;
     grid-template-columns: auto;
     align-items: center;
-
+    max-width: 375px;
   }
   .texto-img1 p{
     font-size: 23px;
     line-height: 27px;
-    margin: 0 0 25px 0;
     text-align: center;
-    max-width: 560px;
+    margin: 0;
+    max-width: 375px;
+    margin: 0 10px 90px 10px;
   }
   .texto-img1 h3{
     font-size: 40px;
     line-height: 50px;
     text-align: center;
-    margin: 0 0 16px 0;
+    margin: 0;
+    max-width: 375px;
+    margin: 0 10px 8px 10px;
+
   }
   .texto-img1 ul{
     font-size: 23px;
     line-height: 27px;
     text-align: center;
-    margin: 0 0 41px 0;
-
+    margin: 0;
+    max-width: 375px;
+    margin: 0 10px 41px 10px;
   }
    .imagem1{
-     /* margin: 0 15px 30px 15px; */
+    margin: 0;
+    max-width: 375px;
+    margin: 0 10px 30px 10px; 
    }
   .imagem2{
     display: none;
   }
   .imagem2MOBILE{
-     margin: 0 auto;
-   display: inline;
-   margin-left: 3px;
-   margin-bottom: 28px;
+    display: inline;
+    margin: 0;
+    max-width: 375px;
+    margin: 0 10px 30px 10px; 
    }
   /* ================================================ */
   .grid2{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
+    max-width: 375px;
+
   }
   
   .grid4-imagem{
    grid-column: 1;
-   grid-row: 1;
-   
+   margin: 0;
+   max-width: 375px;
+
   }
   .grid4{
-    max-width: 360px;
+    max-width: 375px;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     justify-items: center;
-    margin: 81px 0 81px 0;
+
   }
   .flex1{
-    max-width: 500px;
+    max-width: 375px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
@@ -586,23 +583,61 @@ a.active{
     margin: 0;
     text-align: center;
   }
+  .grid4-intercambio{
+    max-width: 375px;
+    
+  }
   .grid4-intercambio h1{
-    /* max-width: 500px; */
+    max-width: 375px;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0 10px 32px 10px;
+
   }
   .grid4-intercambio h2{
-    font-size: 28px;
-    line-height: 72px;
     margin: 0;
+    max-width: 320px;
+    font-size: 22px;
+    line-height: 26px;
+    /* padding: 10px; */
     align-content: center;
+    margin: 0 10px 18px 10px;
+
   }
   .grid4-intercambio p{
+    font-weight: 400;
     font-size: 23px;
     line-height: 27px;
-    max-width: 560px;
+    max-width: 375px;
+    margin: 0 10px 60px 10px;
+    }
+  .grid4-intercambio a{
+    margin: 0 10px 60px 10px;
   }
-  .grid4-intercambio h2{
-    max-width: 570px;
-    
+  .grid4-intercambio h2,a{
+    max-width: 375px; 
+    margin: 0px 10px 32px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .inscricao{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 375px;
+    font-size: 30px;
+    margin: 0px 10px 32px 10px;
+
+  }
+  .inscricao h1{
+    font-size: 48px;
+    line-height: 45px;
+    max-width: 375px;
+    margin: 100px 10px 32px 10px;
+  }
+  .inscricao a{
+    max-width: 375px;
+    margin: 0px 10px 32px 10px;
   }
   .grid3{
     display: grid;
@@ -616,40 +651,46 @@ a.active{
     align-items: center;
     margin: 0;
     height: 594px;
+    max-width: 375px;
   }
   .grid3-iniciativa h1{
     text-align: center;
-    width: 420px;
-    margin: 0 auto 0 auto;
-    padding: 35px;
+    max-width: 375px;
+    font-size: 48px;
+    line-height: 45px;
+    padding-top: 90px;
+    margin: 0 10px 60px 10px;
   }
   .grid3-iniciativa p{
     text-align: center;
-    width: 420px;
     font-size: 23px;
     line-height: 27px;
-    margin: 0 auto 50px auto;
-    margin: 0 auto;
+    margin: 0;
+    max-width: 375px;
+    margin: 0 10px 60px 10px;
+
   }
   .footer {
     height: 250px;
-    margin: 0px;
+    max-width: 375px;
     gap: 0px;
   }
   .realizacao{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
-    padding: 0px 20px 0 0;
     justify-content: center;
-    margin-bottom: 21px ;
-    margin-top: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0;
+    max-width: 375px;
+    place-content: center;
   }
+  
   .realizacao p {
     text-align: center;
     grid-column: 1/-1;
+    max-width: 375px;
+    margin: 0;
+    
   }
 
   .apoio{
@@ -657,17 +698,20 @@ a.active{
     grid-template-columns: auto auto auto;
     gap: 12px;
     justify-content: center;
-    margin-bottom: 71px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
+    max-width: 375px;
+
   }
   .apoio p {
     text-align: center;
     grid-column: 1/-1;
-    margin-left: 10px;
+    margin: 0;
+    max-width: 375px;
   }
 
   .footer-lista{
+    max-width: 375px;
     display: grid;
+    margin: 0;
   }
 }
