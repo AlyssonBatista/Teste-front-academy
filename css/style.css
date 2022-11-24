@@ -502,6 +502,18 @@ a.active{
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media(max-width: 600px) {
+ body{
+  
+ }
+  .grid1{
+    display: inline;
+    max-width: 355px;
+  }
+  .idioma{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+  }
 
   .grid-23{
     display: grid;
@@ -536,16 +548,20 @@ a.active{
 
   }
   .texto-img1 ul{
-    font-size: 23px;
-    line-height: 27px;
+    font-size: 21px;
+    line-height: 25px;
     text-align: center;
     margin: 0;
     max-width: 375px;
     margin: 0 10px 41px 10px;
   }
+  .texto-img1 li{
+    max-width: 375px;
+ 
+  }
    .imagem1{
     margin: 0;
-    max-width: 375px;
+    max-width: 355px;
     margin: 0 10px 30px 10px; 
    }
   .imagem2{
@@ -554,7 +570,7 @@ a.active{
   .imagem2MOBILE{
     display: inline;
     margin: 0;
-    max-width: 375px;
+    max-width: 355px;
     margin: 0 10px 30px 10px; 
    }
   /* ================================================ */
@@ -619,6 +635,9 @@ a.active{
   .grid4-intercambio a{
     margin: 0 10px 60px 10px;
   }
+  .grid4-imagem{
+    max-width: 355px;
+  }
   .grid4-intercambio h2,a{
     max-width: 375px; 
     margin: 0px 10px 32px 10px;
@@ -626,8 +645,8 @@ a.active{
     padding-bottom: 5px;
   }
   .gridincricao{
-    max-width: 375px;
-    margin: 0px 10px 32px 10px;
+    /* max-width: 375px; */
+    /* margin: 0px 10px 32px 10px; */
   }
 
   .inscricao{
@@ -649,6 +668,7 @@ a.active{
     margin: 0px 0px 32px 0px;
   }
   .grid3{
+    max-width: 375px;
     display: grid;
     height: 594px;
     grid-template-columns: auto;
