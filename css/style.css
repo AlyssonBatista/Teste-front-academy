@@ -339,6 +339,9 @@ a.active{
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 @media(max-width: 1340px) {
+  .idioma{
+    margin-left: 400px;
+  }
   .grid-23{
     display: grid;
     grid-template-columns: auto auto;
@@ -417,6 +420,9 @@ a.active{
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 @media(max-width: 1140px) {
+  .idioma{
+    margin-left: 400px;
+  }
   .grid-23{
     display: grid;
     grid-template-columns: auto;
@@ -528,6 +534,7 @@ a.active{
     grid-template-columns: auto auto auto;
     justify-content: end;
     max-width: 599px;
+    /* margin-left: 300px; */
   }
 
   .idioma h2{
