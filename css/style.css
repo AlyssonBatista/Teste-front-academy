@@ -513,10 +513,23 @@ a.active{
     max-width: 550px;
   }
   .idioma{
+    height: 120px;
+    gap: 15px;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: end;
     max-width: 599px;
+  }
+
+  .idioma h2{
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .idioma a {
+    font-size: 24px;
+    line-height: 27px;
+    padding: 10px;
   }
 
   .grid-23{
