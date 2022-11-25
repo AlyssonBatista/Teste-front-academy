@@ -524,17 +524,21 @@ a.active{
   justify-content: center;
  }
   .grid1{
-    display: inline;
+    display: grid;
+    grid-template-columns: auto auto;
     max-width: 550px;
+    margin-left: 0px;
+    justify-content: center;
   }
   .idioma{
+    grid-column: 1;
     height: 120px;
     gap: 15px;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: end;
     max-width: 599px;
-    /* margin-left: 300px; */
+    margin: 0 0 0 300px;
   }
 
   .idioma h2{
