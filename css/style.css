@@ -15,7 +15,7 @@ img{
 article{
   background: #5287DD;
 }
-/* ============================================== estilos header */
+/* ========================================================================================== estilos header */
 .grid1{
   display: grid;
   grid-template-columns: auto auto;
@@ -31,7 +31,6 @@ article{
   align-items: center;
   margin-left: 750px;
 }
-
 .idioma h2{
   font-size: 18px;
   line-height: 21px;
@@ -41,7 +40,6 @@ article{
   margin: 0;
   padding: 0;
 }
-
 .idioma a{
   font-size: 18px;
   line-height: 21px;
@@ -51,23 +49,17 @@ article{
   color: #2B2B2B;
   margin: 0;
   padding: 0;
-
 }
-
-/* ============================================== estilos section ou estilos main */
-
-
+/* ==============================================================================================estilos section ou estilos main */
 .grid-23{
   display: grid;
   place-items: center;
-  /* justify-content: center; */
   background-image: linear-gradient(to bottom,#ededed 0, #EDEDED 57.0%, #5287DD 55%);
 }
 .imagem2-fixed{
   position: relative;
   top: -1200px;
 }
-
 .grid2{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -89,7 +81,6 @@ article{
   margin-left: 137px;
   max-width: 100%;
 }
-
 .texto-img1 p{
   max-width: 570px;
   font-family: 'Dosis',sans-serif;
@@ -120,14 +111,10 @@ article{
   margin-top: 8px;
   margin-bottom: 61px;
 }
-
 .texto-img1 strong{
   font-weight: 700;
 } 
-
-
-
-/* ============================================ estilos article */
+/* ==========================================================================================================estilos article */
  .grid3{
  display: grid;
  grid-template-columns: 1fr 1fr;
@@ -151,7 +138,6 @@ article{
   padding-top: 95px;
   word-wrap: break-word;
 }
-
 .grid3-iniciativa p{
   max-width: 470px ;
   font-family: 'Dosis',sans-serif;
@@ -162,8 +148,7 @@ article{
   word-wrap: break-word;
   margin-right: 100px; 
 } 
-
-/* =========================================================== section 2 */
+/* =================================================================================================================== section 2 */
 
 .grid4{
   display: grid;
@@ -189,7 +174,6 @@ article{
   color: #2B2B2B;
   padding-bottom: 32px;
   padding-top: 81px;
-  
 }
 .grid4-intercambio p{
   max-width: 528px;
@@ -200,7 +184,6 @@ article{
   color: #2B2B2B;
   padding-bottom: 32px;
 }
- 
 .grid4-intercambio h2{
   max-width: 599px;
   font-family: 'Work Sans', sans-serif;
@@ -222,17 +205,12 @@ article{
   line-height: 22px;
   color: #2B2B2B;
   margin: 0 0 132px 0;
- 
 }
 .grid4-imagem {
   max-width: 500px;
   padding: 61px 206px 97px 50px;
 }
-
-
-
-
-/* =================================================================section final */
+/* =============================================================================================================== section final */
 .inscricao{
   background-color: #5287DD;
   height: 378px;
@@ -253,10 +231,7 @@ article{
   width: 500px;
   height: 124px;
   word-wrap: break-word;
-  
 }
-
-
 .inscricao a{
   font-family: 'Work Sans', sans-serif;
   font-size: 22px;
@@ -297,7 +272,6 @@ footer{
   font-size: 14px;
   line-height: 18px;
 }
-
 .realizacao{
   display: flex;
   gap: 28px;
@@ -310,11 +284,7 @@ footer{
   font-size: 14px;
   line-height: 18px;
 }
-
-
-
-/*=================================================================== mudar idioma*/
-
+/*=================================================================== botão do idioma*/
 a.active{
   background: #EDEDED;
   width: 37px;
@@ -329,10 +299,6 @@ a.active{
   margin: 0;
   padding: 0;
 }
-
-
-
-
 
 
 
@@ -373,13 +339,10 @@ a.active{
   .imagem2{
     display: none;
   }
-  
-  /* ================================================ */
   .grid2{
     display: grid;
     grid-template-columns: auto;
   }
-  
   .grid4-imagem{
     grid-column: 2;
     margin: 0;
@@ -412,10 +375,7 @@ a.active{
   .grid3-iniciativa p{
     margin: 0 50px 0 50px;
   }
-
 }
-
-
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
@@ -445,7 +405,6 @@ a.active{
   .texto-img1 ul{
     text-align: center;
     margin: 0 0 61px 0;
-
   }
   .imagem1{
     margin: 0 0 25px 0;
@@ -453,16 +412,13 @@ a.active{
   .imagem2{
     display: none;
   }
-  /* ================================================ */
   .grid2{
     display: grid;
     grid-template-columns: auto;
   }
-  
   .grid4-imagem{
    grid-column: 1;
    grid-row: 1;
-   
   }
   .grid4{
     display: grid;
@@ -489,7 +445,6 @@ a.active{
   }
   .grid4-intercambio h2{
     max-width: 570px;
-    
   }
   .grid3{
     display: grid;
@@ -514,10 +469,9 @@ a.active{
   }
 }
 
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 @media(max-width: 600px) {
- 
  body{
   max-width: 599px;
   display: grid;
@@ -540,18 +494,15 @@ a.active{
     max-width: 599px;
     margin: 0 0 0 300px;
   }
-
   .idioma h2{
     font-size: 24px;
     line-height: 27px;
   }
-
   .idioma a {
     font-size: 24px;
     line-height: 27px;
     padding: 10px;
   }
-
   .grid-23{
     display: grid;
     grid-template-columns: auto;
@@ -559,7 +510,6 @@ a.active{
     margin: 0;
     max-width: 599px;
     background-image: linear-gradient(to bottom,#ededed 0, #EDEDED 73.2%, #5287DD 55%);
-  
   }
   .texto-img1{
     display: grid;
@@ -574,7 +524,6 @@ a.active{
     margin: 0;
     max-width: 570px;
     margin: 0 14px 90px 15px; 
-
   }
   .texto-img1 h3{
     font-size: 50px;
@@ -584,7 +533,6 @@ a.active{
     margin: 0;
     max-width: 599px;
     margin: 0 10px 13px 10px;
-
   }
   .texto-img1 ul{
     font-size: 30px;
@@ -596,7 +544,6 @@ a.active{
   }
   .texto-img1 li{
     max-width: 599px;
- 
   }
    .imagem1{
     margin: 0;
@@ -618,12 +565,10 @@ a.active{
     grid-template-columns: 1fr;
     max-width: 599px;
   }
-  
   .grid4-imagem{
    grid-column: 1;
    margin: 0;
    max-width: 599px;
-
   }
   .grid4{
     max-width: 599px;
@@ -631,7 +576,6 @@ a.active{
     grid-template-columns: 1fr;
     justify-content: center;
     justify-items: center;
-
   }
   .flex1{
     max-width: 599px;
@@ -650,7 +594,6 @@ a.active{
     font-size: 65px;
     line-height: 60px;
     margin: 0 10px 32px 10px;
-
   }
   .grid4-intercambio h2{
     max-width: 599px;
@@ -675,10 +618,6 @@ a.active{
   .grid4-imagem{
     max-width: 599px;
   }
- 
- 
- 
-  
   .inscricao{
     height: 650px;
     display: grid;
@@ -709,7 +648,6 @@ a.active{
     justify-content: center;
     margin: 0;  
   }
-  
   .grid3-iniciativa{
     text-align: center;
     align-items: center;
@@ -730,7 +668,6 @@ a.active{
     margin: 0;
     max-width: 599px;
     margin: 0 10px 60px 10px;
-
   }
   .footer {
     height: 350px;
@@ -747,8 +684,6 @@ a.active{
     max-width: 599px;
     padding: 0;
   }
-  
-  
   .realizacao p {
     font-size: 20px;
     line-height: 40px;
@@ -758,7 +693,6 @@ a.active{
     max-width: 599px;
     margin: 0;
   }
- 
   .apoio{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -766,7 +700,6 @@ a.active{
     justify-content: center;
     margin: 30px 0 30px 0;
     max-width: 599px;
-
   }
   .apoio p {
     font-size: 20px;
