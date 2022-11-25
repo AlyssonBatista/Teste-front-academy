@@ -709,6 +709,7 @@ a.active{
     grid-template-columns:auto auto auto;
     place-content: center;
     column-gap: 50px;
+    row-gap: 15px;
     margin: 0;
     max-width: 599px;
     padding: 0;
