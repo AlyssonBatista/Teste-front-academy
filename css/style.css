@@ -483,8 +483,6 @@ a.active{
 @media(max-width: 600px) {
  body{
   max-width: 599px;
-  display: grid;
-  justify-content: center;
  }
   .grid1{
     display: grid;
