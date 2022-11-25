@@ -14,21 +14,22 @@ img{
 }
 article{
   background: #5287DD;
- 
-
 }
 /* ============================================== estilos header */
 .grid1{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+  justify-content: center;
 }
 .idioma{
   grid-column: 2;
   display: flex;
+  place-items: center;
   gap: 10px;
   justify-content: center;
   height: 75px;
   align-items: center;
+  margin-left: 750px;
 }
 
 .idioma h2{
@@ -342,6 +343,8 @@ a.active{
     display: grid;
     grid-template-columns: auto auto;
     margin: 0;
+    text-align: center;
+    justify-content: center;
   }
   .texto-img1{
     display: grid;
@@ -350,7 +353,10 @@ a.active{
   }
   .texto-img1 p{
     margin: 0 0 25px 0;
+    place-items: center;
+    max-width: 570px;
   }
+ 
   .texto-img1 h3{
     margin: 0 0 25px 0;
   }
@@ -400,7 +406,9 @@ a.active{
   .grid3-iniciativa h1{
     margin-right: 0px;
   }
-  
+  .grid3-iniciativa p{
+    margin: 0 50px 0 50px;
+  }
 
 }
 
@@ -506,7 +514,8 @@ a.active{
  
  body{
   max-width: 599px;
- 
+  display: grid;
+  justify-content: center;
  }
   .grid1{
     display: inline;
