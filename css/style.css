@@ -255,6 +255,7 @@ article{
   
 }
 
+
 .inscricao a{
   font-family: 'Work Sans', sans-serif;
   font-size: 22px;
@@ -502,8 +503,9 @@ a.active{
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media(max-width: 600px) {
- body{
   
+ body{
+  max-width: 200px;
  }
   .grid1{
     display: inline;
@@ -638,39 +640,38 @@ a.active{
   .grid4-imagem{
     max-width: 355px;
   }
-  .grid4-intercambio h2,a{
+ 
+  .grid4-intercambio h2{
     max-width: 375px; 
     margin: 0px 10px 32px 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+   padding: 8px;
   }
-  .gridincricao{
-    /* max-width: 375px; */
-    /* margin: 0px 10px 32px 10px; */
-  }
-
+ 
+  
   .inscricao{
+    height: 518px;
     display: grid;
     grid-template-columns: 1fr;
     max-width: 375px;
     font-size: 30px;
     margin: 0px 0px 32px 0px;
-
+    place-content: center;
   }
   .inscricao h1{
     font-size: 48px;
     line-height: 45px;
     max-width: 375px;
-    margin: 100px 0px 32px 0px;
+    margin: 0px 0px 70px 0px;
+    height: 50px;
   }
   .inscricao a{
     max-width: 375px;
-    margin: 0px 0px 32px 0px;
+    margin: 0px 0px 0px 0px;
   }
   .grid3{
     max-width: 375px;
     display: grid;
-    height: 594px;
+    height: 700px;
     grid-template-columns: auto;
     justify-content: center;
     margin: 0;  
@@ -679,7 +680,7 @@ a.active{
     text-align: center;
     align-items: center;
     margin: 0;
-    height: 594px;
+    /* height: 1000px; */
     max-width: 375px;
   }
   .grid3-iniciativa h1{
@@ -687,7 +688,7 @@ a.active{
     max-width: 375px;
     font-size: 48px;
     line-height: 45px;
-    padding-top: 90px;
+    /* padding-top: 90px; */
     margin: 0 10px 60px 10px;
   }
   .grid3-iniciativa p{
@@ -706,22 +707,22 @@ a.active{
   }
   .realizacao{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:auto auto auto;
+    place-content: center;
     gap: 12px;
-    justify-content: center;
     margin: 0;
     max-width: 375px;
-    place-content: center;
+    padding: 0;
   }
+  
   
   .realizacao p {
     text-align: center;
     grid-column: 1/-1;
     max-width: 375px;
     margin: 0;
-    
   }
-
+ 
   .apoio{
     display: grid;
     grid-template-columns: auto auto auto;
