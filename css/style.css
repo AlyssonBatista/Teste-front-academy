@@ -577,7 +577,7 @@ a.active{
     display: inline;
     margin: 0;
     max-width: 599px;
-    margin: 0 17px 30px 18px;
+    margin: 0 14px 30px 15px; 
    }
   /* ================================================ */
   .grid2{
@@ -702,13 +702,13 @@ a.active{
   .footer {
     height: 350px;
     max-width: 599px;
-    /* gap: 15px; */
+    gap: 0px;
   }
   .realizacao{
     display: grid;
     grid-template-columns:auto auto auto;
     place-content: center;
-    gap: 12px;
+    column-gap: 50px;
     margin: 0;
     max-width: 599px;
     padding: 0;
@@ -730,12 +730,9 @@ a.active{
     grid-template-columns: auto auto auto;
     gap: 12px;
     justify-content: center;
-    margin: 40px ;
+    margin: 30px 0 30px 0;
     max-width: 599px;
-    
-  }
-  .apoio img{
-    max-width: 599px;
+
   }
   .apoio p {
     font-size: 20px;
@@ -746,12 +743,13 @@ a.active{
     margin: 0;
     max-width: 599px;
   }
-  
-
+.itaipu{
+  margin-right: 30px;
+}
   .footer-lista{
     max-width: 599px;
     display: grid;
-    gap: 50px;
     margin: 0;
+    gap: 40px;
   }
 }
