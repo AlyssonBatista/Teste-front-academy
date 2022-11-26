@@ -1,6 +1,5 @@
-const langEl = document.querySelector('.idioma','.lista');
-const link = document.querySelectorAll('a','strong');
-
+const langEl = document.querySelector('.idioma');
+const link = document.querySelectorAll('a');
 
 const titleEl = document.querySelector('.titulo');
 const descrEl = document.querySelector('.descricao');
@@ -28,7 +27,7 @@ link.forEach(el => {
   el.addEventListener("click", () => {
     langEl.querySelector('.active').classList.remove('active');
     el.classList.add('active');
-
+    
     const attr = el.getAttribute('language');
 
     titleEl.textContent = data[attr].titulo;
@@ -51,9 +50,6 @@ link.forEach(el => {
 
     realiza.textContent = data[attr].footerRea;
     apoio.textContent = data[attr].footerApo;
-
-
-
 
   });
 });
@@ -111,4 +107,23 @@ var data = {
    
   },
    
+}
+
+var currentImgIndex=1;
+var ImgSrcArray = [ //caminho das suas imgs aqui
+'img/gods/agni.jpg',
+'img/gods/agni2.jpg',
+'img/gods/agni3.jpg',
+'img/gods/agni4.jpg'
+];
+
+function trocar(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("agni").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
 }
